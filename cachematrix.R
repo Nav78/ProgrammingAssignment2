@@ -1,20 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-<<<<<<< HEAD
-## Write a short comment describing this function
-
-makeCacheMatrix <- function(x = matrix()) {
-
-}
-
-
-## Write a short comment describing this function
-
-cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
-}
-=======
 ## The function creates a special matrix object that can cache the input
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -45,4 +31,4 @@ cacheSolve <- function(x=matrix(), ...) {
 mat <- matrix(data = c(4,2,7,6), nrow = 2, ncol = 2)
 mat2 <- makeCacheMatrix(mat)
 cacheSolve(mat2)
->>>>>>> edit readme.md
+
